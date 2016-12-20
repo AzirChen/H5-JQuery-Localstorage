@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/storage.js"></script>
+	
+	<title>Note</title>
+</head>
+<body>
+	<div class="header">
+		<select  id="note_level">
+			<option value="live">Live</option>
+			<option value="work">Work</option>
+			<option value="learn">Learn</option>
+		</select>
+		<input type="text" name="note" placeholder="Input your note" id="noteContent" required>
+		<input type="button" name="submit" id="send" value="Send">
+	</div>
+	<div class="content">
+		<ul class="note_list"></ul>
+	</div>
+	<!-- <script src="js/jquery.min.js"></script>
+	<script src="js/storage.js"></script> -->
+</body>
+</html>
